@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MonumentDataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/joylashuv"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        />
+        <EditText
+            android:id="@+id/turi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+            />
+        <EditText
+            android:id="@+id/material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+            />
+        <EditText
+            android:id="@+id/ochilish"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+            />
+        <EditText
+            android:id="@+id/batafsil"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saqlash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#3550DC"
+            android:textAllCaps="false"
+            android:text="Saqlash"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+</ScrollView>

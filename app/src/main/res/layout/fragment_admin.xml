@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4DDDD976"
+    android:gravity="center"
+    tools:context=".fragment.AdminFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/monument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#3550DC"
+        android:textAllCaps="false"
+        android:text="Jaloliddin haykali ma'lumotlar"
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#3550DC"
+        android:textAllCaps="false"
+        android:text="Jaloliddin Manguberdi haqidagi ma'lumotlar"
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/chiqish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#3550DC"
+        android:textAllCaps="false"
+        android:text="Chiqish"
+        android:textColor="@color/white" />
+
+</LinearLayout>
